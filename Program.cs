@@ -1,5 +1,7 @@
-﻿var twoSum = new TwoSum();
-var res = twoSum.Solution();
+﻿var groupAnagrams = new GroupAnagrams();
+var res = groupAnagrams.Solution();
 
-foreach(var x in res)
-    Console.WriteLine(x);
+foreach(var arr in res)
+{
+    Console.WriteLine(string.Join(", ", arr));
+}
