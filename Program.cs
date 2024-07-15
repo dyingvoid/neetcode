@@ -1,2 +1,2 @@
-﻿var containsDuplicate = new ContainsDuplicate();
-Console.WriteLine(containsDuplicate.Solution());
+﻿var validAnagram = new ValidAnagram();
+Console.WriteLine(validAnagram.Solution());
